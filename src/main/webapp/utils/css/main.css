@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: linear-gradient(90deg, #cbc8ec, #bef1e9);
+    padding-bottom: 100px;
+}
+.container{
+    position: relative;
+    padding: 0 10%;
+}
+.wl-library{
+    position: relative;
+}
+.wl-p{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0 100px 0;
+    color: #fff;
+}
+.lib-menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.lib-menu li{
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+}
+.lib-menu li:not(:first-child){
+    margin-top: 10px;
+}
+.lib-menu a{
+    border: 1px solid #d2d2d2;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.18);
+    width: 400px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    transition: .2s;
+}
+.lib-menu a:hover{
+    border: 1px solid #fff;
+    outline: 3px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.add-book{
+    position: relative;
+}
+.b-inform-items{
+    position: relative;
+    width: 100%;
+}
+.b-inform-items:not(:first-child){
+    margin-top: 10px;
+}
+.bi-item-title{
+    color: white;
+    margin-bottom: 10px;
+}
+.bi-item-input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    outline: none;
+    color: #000;
+}
+.bi-item-input:focus{
+    outline: 3px solid rgba(255, 255, 255, 0.3);
+}
+.bi-upl-file{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.bi-upl-file-left{
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #d2d2d2;
+}
+.bi-upl-file-left label{
+    box-sizing: content-box;
+    display: block;
+    padding: 5px;
+}
+.bi-upl-file-left input{
+    display: none;
+}
+.bi-upl-file-right{
+    position: relative;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+.save-btn{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.save-btn button{
+    background-color: yellow;
+    font-weight: 500;
+    border: 1px solid #d2d2d2;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.book-list{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.book-list-items{
+    width: 260px;
+    height: 530px;
+    border-radius: 10px;
+    border: 1px solid #d2d2d2;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.books-list-img{
+    position: relative;
+    width: 100%;
+    height: 270px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.books-list-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.books-list-text{
+    color: #fff;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.book-edit-btn{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5px;
+}
+.book-edit-btn button{
+    margin: 0 5px;
+    padding: 2px;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.27);
+    color: #fff;
+    cursor: pointer;
+}
+.year-page{
+    position: relative;
+}
+.year-page ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.year-page li div{
+    display: inline-block;
+}
+/*  Add a new category page  */
+.category-name{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.add-category-input{
+    margin-bottom: 20px;
+}
+.add-category-input input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    outline: none;
+    color: #000;
+}
+.save-category-btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.books_list {
+    display: flex !important;
+    flex-wrap: wrap;
+    margin: 10px 50px;
+}
+.card{
+    margin: 10px;
+    width: 30%;
+}
+
+.book_title{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-style: italic;
+}

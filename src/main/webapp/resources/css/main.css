@@ -1,0 +1,17 @@
+
+
+.books_list {
+    display: flex !important;
+    flex-wrap: wrap;
+    margin: 10px 50px;
+}
+.card{
+    margin: 10px;
+    width: 30%;
+}
+
+.module_title{
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-style: italic;
+}
