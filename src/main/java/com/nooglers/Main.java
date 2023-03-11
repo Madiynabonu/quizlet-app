@@ -25,4 +25,5 @@ public class Main {
     private String gr(Integer n, Function<Integer,String> f){
         return f.apply(n);
     }
+
 }
